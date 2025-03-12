@@ -1,0 +1,1463 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGVhlKYxWP3Fxc=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGVhlKYxmP4Uak=",
+					"_parent": {
+						"$ref": "AAAAAAGVhlKYxWP3Fxc="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAGVhlKYxmP5M8c=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "SequenceDiagram1",
+							"ownedViews": [
+								{
+									"_type": "UMLFrameView",
+									"_id": "AAAAAAGVhlKYxmP6MFA=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGVhlKYxmP7QF8=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlKYxmP6MFA="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 32.72998046875,
+											"top": 13,
+											"width": 114.9052734375,
+											"height": 13,
+											"text": "SequenceDiagram1"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGVhlKYxmP89Hc=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlKYxmP6MFA="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 13,
+											"top": 13,
+											"width": 13.72998046875,
+											"height": 13,
+											"text": "sd"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 8,
+									"top": 8,
+									"width": 904,
+									"height": 592,
+									"nameLabel": {
+										"$ref": "AAAAAAGVhlKYxmP7QF8="
+									},
+									"frameTypeLabel": {
+										"$ref": "AAAAAAGVhlKYxmP89Hc="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGVhlK0SGQIUNI=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlK0SGQHUf4="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGVhlK0SGQJoQ0=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlK0SGQIUNI="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlK0SGQHUf4="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlK0SGQK2HY=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlK0SGQJoQ0="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlK0SGQLOTU=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlK0SGQJoQ0="
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"left": 85,
+													"top": 47,
+													"width": 111,
+													"height": 13,
+													"text": "Travel agency"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlK0SGQMjZc=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlK0SGQJoQ0="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlK0SWQNMzw=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlK0SGQJoQ0="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 80,
+											"top": 40,
+											"width": 121,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGVhlK0SGQK2HY="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGVhlK0SGQLOTU="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGVhlK0SGQMjZc="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGVhlK0SWQNMzw="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGVhlK0SWQOOGs=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlK0SGQIUNI="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlK0SGQHUf4="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 140,
+											"top": 81,
+											"width": 1,
+											"height": 249
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 80,
+									"top": 40,
+									"width": 120,
+									"height": 290,
+									"nameCompartment": {
+										"$ref": "AAAAAAGVhlK0SGQJoQ0="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGVhlK0SWQOOGs="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGVhlSpTmQoWkY=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlSpTmQnC6s="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGVhlSpTmQpqRY=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlSpTmQoWkY="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlSpTmQnC6s="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlSpTmQqs0g=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlSpTmQpqRY="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlSpTmQrjrw=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlSpTmQpqRY="
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"left": 293,
+													"top": 47,
+													"width": 148.96630859375,
+													"height": 13,
+													"text": "Flight booking service"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlSpTmQsP0E=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlSpTmQpqRY="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlSpTmQt1cQ=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlSpTmQpqRY="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 288,
+											"top": 40,
+											"width": 158.96630859375,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGVhlSpTmQqs0g="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGVhlSpTmQrjrw="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGVhlSpTmQsP0E="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGVhlSpTmQt1cQ="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGVhlSpTmQuVW8=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlSpTmQoWkY="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlSpTmQnC6s="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 367,
+											"top": 81,
+											"width": 1,
+											"height": 249
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 288,
+									"top": 40,
+									"width": 157.96630859375,
+									"height": 290,
+									"nameCompartment": {
+										"$ref": "AAAAAAGVhlSpTmQpqRY="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGVhlSpTmQuVW8="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGVhlUW22RIAEw=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlUW22RHZKM="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGVhlUW22RJOYM=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlUW22RIAEw="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlUW22RHZKM="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlUW22RKKRA=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlUW22RJOYM="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlUW22RLduM=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlUW22RJOYM="
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"left": 509,
+													"top": 47,
+													"width": 103,
+													"height": 13,
+													"text": "Smart Airline"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlUW22RMgG4=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlUW22RJOYM="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlUW22RN92U=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlUW22RJOYM="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 504,
+											"top": 40,
+											"width": 113,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGVhlUW22RKKRA="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGVhlUW22RLduM="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGVhlUW22RMgG4="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGVhlUW22RN92U="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGVhlUW22ROrKk=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlUW22RIAEw="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlUW22RHZKM="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 560,
+											"top": 81,
+											"width": 1,
+											"height": 127
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 504,
+									"top": 40,
+									"width": 112,
+									"height": 168,
+									"nameCompartment": {
+										"$ref": "AAAAAAGVhlUW22RJOYM="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGVhlUW22ROrKk="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGVhlWJH2Ro4c8=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlWJH2RnTmg="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGVhlWJH2Rp+S0=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlWJH2Ro4c8="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlWJH2RnTmg="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlWJH2Rq/YY=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlWJH2Rp+S0="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": 96,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlWJH2RriKM=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlWJH2Rp+S0="
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"left": 709,
+													"top": 47,
+													"width": 83.97900390625,
+													"height": 13,
+													"text": "royal airline"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlWJH2RsSdM=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlWJH2Rp+S0="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": 96,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGVhlWJH2Rtngs=",
+													"_parent": {
+														"$ref": "AAAAAAGVhlWJH2Rp+S0="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": 96,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 704,
+											"top": 40,
+											"width": 93.97900390625,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGVhlWJH2Rq/YY="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGVhlWJH2RriKM="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGVhlWJH2RsSdM="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGVhlWJH2Rtngs="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGVhlWJH2RunZ8=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlWJH2Ro4c8="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlWJH2RnTmg="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 750,
+											"top": 81,
+											"width": 1,
+											"height": 183
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 704,
+									"top": 40,
+									"width": 92.97900390625,
+									"height": 224,
+									"nameCompartment": {
+										"$ref": "AAAAAAGVhlWJH2Rp+S0="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGVhlWJH2RunZ8="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGVhlYvEmSJynU=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlYvEmSIuZo="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlYvE2SKoKg=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlYvEmSJynU="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlYvEmSIuZo="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 181,
+											"top": 96,
+											"width": 138.75341796875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlYvEmSJynU="
+											},
+											"edgePosition": 1,
+											"text": "1 : travelbookingrequest"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlYvE2SLKeE=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlYvEmSJynU="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlYvEmSIuZo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 81,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlYvEmSJynU="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlYvE2SMRpE=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlYvEmSJynU="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlYvEmSIuZo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 250,
+											"top": 116,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlYvEmSJynU="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGVhlYvE2SN9sk=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlYvEmSJynU="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlYvEmSIuZo="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 360,
+											"top": 112,
+											"width": 14,
+											"height": 28
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGVhlSpTmQuVW8="
+									},
+									"tail": {
+										"$ref": "AAAAAAGVhlK0SWQOOGs="
+									},
+									"points": "141:112;360:112",
+									"nameLabel": {
+										"$ref": "AAAAAAGVhlYvE2SKoKg="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGVhlYvE2SLKeE="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGVhlYvE2SMRpE="
+									},
+									"activation": {
+										"$ref": "AAAAAAGVhlYvE2SN9sk="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGVhlekr2Sgfks=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlekr2Sf6No="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlekr2ShnrQ=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlekr2Sgfks="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlekr2Sf6No="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 390,
+											"top": 128,
+											"width": 141.64794921875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlekr2Sgfks="
+											},
+											"edgePosition": 1,
+											"text": "2 : flight booking request"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlekr2SiL2o=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlekr2Sgfks="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlekr2Sf6No="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 460,
+											"top": 113,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlekr2Sgfks="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlekr2Sj1LI=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlekr2Sgfks="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlekr2Sf6No="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 460,
+											"top": 148,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlekr2Sgfks="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGVhlekr2SkKxk=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlekr2Sgfks="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlekr2Sf6No="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 553,
+											"top": 144,
+											"width": 14,
+											"height": 28
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGVhlUW22ROrKk="
+									},
+									"tail": {
+										"$ref": "AAAAAAGVhlSpTmQuVW8="
+									},
+									"points": "368:144;553:144",
+									"nameLabel": {
+										"$ref": "AAAAAAGVhlekr2ShnrQ="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGVhlekr2SiL2o="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGVhlekr2Sj1LI="
+									},
+									"activation": {
+										"$ref": "AAAAAAGVhlekr2SkKxk="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGVhlgUIGS2Pqo=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlgUIGS1esE="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlgUIGS3wpg=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlgUIGS2Pqo="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlgUIGS1esE="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 375,
+											"top": 172,
+											"width": 169.09521484375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlgUIGS2Pqo="
+											},
+											"edgePosition": 1,
+											"text": "3 : flight booking confirmation"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlgUIGS4RAY=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlgUIGS2Pqo="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlgUIGS1esE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 459,
+											"top": 187,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlgUIGS2Pqo="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlgUIGS5cF4=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlgUIGS2Pqo="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlgUIGS1esE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 460,
+											"top": 152,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlgUIGS2Pqo="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGVhlgUIGS6vak=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlgUIGS2Pqo="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlgUIGS1esE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 367,
+											"top": 168,
+											"width": 14,
+											"height": 25
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGVhlSpTmQuVW8="
+									},
+									"tail": {
+										"$ref": "AAAAAAGVhlUW22ROrKk="
+									},
+									"points": "553:168;368:168",
+									"nameLabel": {
+										"$ref": "AAAAAAGVhlgUIGS3wpg="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGVhlgUIGS4RAY="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGVhlgUIGS5cF4="
+									},
+									"activation": {
+										"$ref": "AAAAAAGVhlgUIGS6vak="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGVhloKkGTQrzM=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhloKkGTP9/Q="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhloKkWTROE0=",
+											"_parent": {
+												"$ref": "AAAAAAGVhloKkGTQrzM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhloKkGTP9/Q="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 485,
+											"top": 192,
+											"width": 141.64794921875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhloKkGTQrzM="
+											},
+											"edgePosition": 1,
+											"text": "4 : flight booking request"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhloKkWTSZVQ=",
+											"_parent": {
+												"$ref": "AAAAAAGVhloKkGTQrzM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhloKkGTP9/Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 555,
+											"top": 177,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhloKkGTQrzM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhloKkWTTa+g=",
+											"_parent": {
+												"$ref": "AAAAAAGVhloKkGTQrzM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhloKkGTP9/Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 555,
+											"top": 212,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhloKkGTQrzM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGVhloKkWTUE9o=",
+											"_parent": {
+												"$ref": "AAAAAAGVhloKkGTQrzM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhloKkGTP9/Q="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 743,
+											"top": 208,
+											"width": 14,
+											"height": 28
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGVhlWJH2RunZ8="
+									},
+									"tail": {
+										"$ref": "AAAAAAGVhlSpTmQuVW8="
+									},
+									"points": "368:208;743:208",
+									"nameLabel": {
+										"$ref": "AAAAAAGVhloKkWTROE0="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGVhloKkWTSZVQ="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGVhloKkWTTa+g="
+									},
+									"activation": {
+										"$ref": "AAAAAAGVhloKkWTUE9o="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGVhlpYv2TmfzM=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlpYv2Tlbw4="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlpYv2Tnbu8=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlpYv2TmfzM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlpYv2Tlbw4="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 470,
+											"top": 228,
+											"width": 169.09521484375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlpYv2TmfzM="
+											},
+											"edgePosition": 1,
+											"text": "5 : flight booking confirmation"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlpYv2ToPvc=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlpYv2TmfzM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlpYv2Tlbw4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 554,
+											"top": 243,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlpYv2TmfzM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlpYv2TpfUk=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlpYv2TmfzM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlpYv2Tlbw4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 555,
+											"top": 208,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlpYv2TmfzM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGVhlpYv2TqU1k=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlpYv2TmfzM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlpYv2Tlbw4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 367,
+											"top": 224,
+											"width": 14,
+											"height": 25
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGVhlSpTmQuVW8="
+									},
+									"tail": {
+										"$ref": "AAAAAAGVhlWJH2RunZ8="
+									},
+									"points": "743:224;368:224",
+									"nameLabel": {
+										"$ref": "AAAAAAGVhlpYv2Tnbu8="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGVhlpYv2ToPvc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGVhlpYv2TpfUk="
+									},
+									"activation": {
+										"$ref": "AAAAAAGVhlpYv2TqU1k="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGVhlug32T+VnM=",
+									"_parent": {
+										"$ref": "AAAAAAGVhlKYxmP5M8c="
+									},
+									"model": {
+										"$ref": "AAAAAAGVhlug32T9nhk="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlug32T/YCk=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlug32T+VnM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlug32T9nhk="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 178,
+											"top": 292,
+											"width": 156.09521484375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlug32T+VnM="
+											},
+											"edgePosition": 1,
+											"text": "6 : travel booking response"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlug32UAIXc=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlug32T+VnM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlug32T9nhk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 256,
+											"top": 307,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlug32T+VnM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGVhlug32UBTv0=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlug32T+VnM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlug32T9nhk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 257,
+											"top": 272,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGVhlug32T+VnM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGVhlug32UCUhc=",
+											"_parent": {
+												"$ref": "AAAAAAGVhlug32T+VnM="
+											},
+											"model": {
+												"$ref": "AAAAAAGVhlug32T9nhk="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 133,
+											"top": 288,
+											"width": 14,
+											"height": 28
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGVhlK0SWQOOGs="
+									},
+									"tail": {
+										"$ref": "AAAAAAGVhlSpTmQuVW8="
+									},
+									"points": "367:288;147:288",
+									"nameLabel": {
+										"$ref": "AAAAAAGVhlug32T/YCk="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGVhlug32UAIXc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGVhlug32UBTv0="
+									},
+									"activation": {
+										"$ref": "AAAAAAGVhlug32UCUhc="
+									}
+								}
+							]
+						}
+					],
+					"messages": [
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGVhlYvEmSIuZo=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "travelbookingrequest",
+							"source": {
+								"$ref": "AAAAAAGVhlK0SGQHUf4="
+							},
+							"target": {
+								"$ref": "AAAAAAGVhlSpTmQnC6s="
+							},
+							"messageSort": "asynchCall"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGVhlekr2Sf6No=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "flight booking request",
+							"source": {
+								"$ref": "AAAAAAGVhlSpTmQnC6s="
+							},
+							"target": {
+								"$ref": "AAAAAAGVhlUW22RHZKM="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGVhlgUIGS1esE=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "flight booking confirmation",
+							"source": {
+								"$ref": "AAAAAAGVhlUW22RHZKM="
+							},
+							"target": {
+								"$ref": "AAAAAAGVhlSpTmQnC6s="
+							},
+							"messageSort": "reply"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGVhloKkGTP9/Q=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "flight booking request",
+							"source": {
+								"$ref": "AAAAAAGVhlSpTmQnC6s="
+							},
+							"target": {
+								"$ref": "AAAAAAGVhlWJH2RnTmg="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGVhlpYv2Tlbw4=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "flight booking confirmation",
+							"source": {
+								"$ref": "AAAAAAGVhlWJH2RnTmg="
+							},
+							"target": {
+								"$ref": "AAAAAAGVhlSpTmQnC6s="
+							},
+							"messageSort": "reply"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGVhlug32T9nhk=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "travel booking response",
+							"source": {
+								"$ref": "AAAAAAGVhlSpTmQnC6s="
+							},
+							"target": {
+								"$ref": "AAAAAAGVhlK0SGQHUf4="
+							},
+							"messageSort": "asynchCall"
+						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGVhlK0SGQHUf4=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "Travel agency",
+							"represent": {
+								"$ref": "AAAAAAGVhlK0SGQGMwY="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGVhlSpTmQnC6s=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "Flight booking service",
+							"represent": {
+								"$ref": "AAAAAAGVhlSpTmQmppA="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGVhlUW22RHZKM=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "Smart Airline",
+							"represent": {
+								"$ref": "AAAAAAGVhlUW22RGMM4="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGVhlWJH2RnTmg=",
+							"_parent": {
+								"$ref": "AAAAAAGVhlKYxmP4Uak="
+							},
+							"name": "royal airline",
+							"represent": {
+								"$ref": "AAAAAAGVhlWJH2RmzkY="
+							},
+							"isMultiInstance": false
+						}
+					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGVhlK0SGQGMwY=",
+					"_parent": {
+						"$ref": "AAAAAAGVhlKYxWP3Fxc="
+					},
+					"name": "Role1"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGVhlSpTmQmppA=",
+					"_parent": {
+						"$ref": "AAAAAAGVhlKYxWP3Fxc="
+					},
+					"name": "Role2"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGVhlUW22RGMM4=",
+					"_parent": {
+						"$ref": "AAAAAAGVhlKYxWP3Fxc="
+					},
+					"name": "Role3"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGVhlWJH2RmzkY=",
+					"_parent": {
+						"$ref": "AAAAAAGVhlKYxWP3Fxc="
+					},
+					"name": "Role4"
+				}
+			]
+		}
+	]
+}
